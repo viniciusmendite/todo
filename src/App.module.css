@@ -50,7 +50,11 @@
   align-items: center;
 }
 
-.form button:hover {
+.form button:disabled {
+  background-color: var(--blue-400);
+}
+
+.form button:not(:disabled):hover {
   background-color: var(--blue-100);
 }
 

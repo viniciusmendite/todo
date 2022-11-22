@@ -1,0 +1,61 @@
+.container {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.createdTasks {
+  display: flex;
+  align-items: center;
+}
+
+.createdTasks > span:first-child {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--blue-100);
+}
+
+.createdTasks > span:last-child {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gray-200);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.5rem;
+  width: max-content;
+  height: max-content;
+  padding: 0.5rem 0.9rem;
+  border-radius: 50%;
+  background-color: var(--gray-400);
+}
+
+.doneTasks {
+  display: flex;
+  align-items: center;
+}
+
+.doneTasks > span:first-child {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--purple-100);
+}
+
+.doneTasks > span:last-child {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gray-200);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.5rem;
+  width: max-content;
+  height: max-content;
+  padding: 0.5rem 0.9rem;
+  border-radius: 50%;
+  background-color: var(--gray-400);
+}
