@@ -23,7 +23,7 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ### 📋 Pré-requisitos
 
-De que ferramentas preciso para executar a aplicação?
+De quais ferramentas preciso para executar a aplicação?
 
 ```
 Git
